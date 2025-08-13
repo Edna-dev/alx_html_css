@@ -1,0 +1,20 @@
+/* Reset & Variables */
+* { margin: 0; padding: 0; box-sizing: border-box; }
+:root { --pentagon-color: #FF6565; --font-family: Arial, sans-serif; --text-color: #333; }
+
+/* Hero Section */
+.hero { background-color: #222; color: white; height: 60vh; display: flex; align-items: center; justify-content: center; text-align: center; }
+.hero-content h1 { font-size: 3rem; margin-bottom: 20px; }
+.hero-content p { font-size: 1.2rem; }
+
+/* Our Results Section */
+.our-results { padding: 50px 20px; text-align: center; background-color: #f9f9f9; }
+.pentagon-grid { display: flex; flex-wrap: wrap; justify-content: center; gap: 40px; margin-top: 40px; }
+
+/* Pentagon Shape */
+.pentagon {
+  width: 100px;
+  background-color: var(--pentagon-color);
+  clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+  aspect-ratio: 1 / 1;
+}
