@@ -1,0 +1,18 @@
+/* Reset and Variables */
+* { margin: 0; padding: 0; box-sizing: border-box; }
+:root { --primary-color: #FF6565; --text-color: white; --font-family: Arial, sans-serif; }
+
+/* Hero Section */
+.hero { background: url('images/headphones_hero_2.jpg') no-repeat center center/cover; height: 60vh; color: var(--text-color); display: flex; flex-direction: column; }
+.hero-content { flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; padding: 20px; }
+.hero-content h1 { font-size: 3rem; margin-bottom: 20px; }
+.hero-content p { font-size: 1.2rem; margin-bottom: 20px; }
+
+/* Contact Form Section */
+.contact-us { text-align: center; padding: 50px 20px; background-color: #f9f9f9; }
+.contact-us h2 { font-size: 2rem; margin-bottom: 40px; }
+.contact-form { max-width: 500px; margin: 0 auto; display: flex; flex-direction: column; gap: 15px; }
+.contact-form label { text-align: left; font-weight: bold; }
+.contact-form input, .contact-form textarea { padding: 10px; border: 1px solid #ccc; border-radius: 5px; font-family: var(--font-family); width: 100%; }
+.btn { padding: 12px 24px; background-color: var(--primary-color); border: none; color: white; cursor: pointer; font-weight: bold; }
+.btn:hover { opacity: 0.9; }
